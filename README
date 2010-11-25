@@ -1,0 +1,3 @@
+I wanted to write a simple sudoku solver. Just try out this:
+
+  ruby sudoku.rb *.txt
