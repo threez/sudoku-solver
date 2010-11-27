@@ -1,3 +1,15 @@
 I wanted to write a simple sudoku solver. Just try out this:
 
   ruby sudoku.rb *.txt
+  
+OR
+  
+  make test (for the c version)
+  
+I also implemented the solver in c. I just wanted to have some performance
+comparison. On my machine i get those numbers (inc. vm/interpreter bootup):
+
+                        real	        user           sys	
+  C                 0m0.063s      0m0.057s      0m0.003s
+  ruby 1.9.2p0      0m0.241s      0m0.224s      0m0.012s
+  ruby 1.8.7p174    0m0.441s      0m0.223s      0m0.012s
